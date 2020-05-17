@@ -1,8 +1,11 @@
 
-//Make use of the public functions of another file
-
+//Import fruits module which contains the banana
 mod fruits;
 
+//Import others module which contains the kiwi
+mod others;
+
 fn main(){
-	fruits::print_banana()
+	fruits::print_banana();
+	others::kiwi::print_kiwi();
 }
