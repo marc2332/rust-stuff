@@ -1,2 +1,7 @@
 */main
 main
+*.iml
+.idea
+*.exe
+*.pdb
+modules
